@@ -19,8 +19,8 @@
 /* Colors */
 :root {
   --color-default: #2b180d;
-  --color-primary: #56b8e6;
-  --color-secondary: #1b2f45;
+  --color-primary: #EDC815;
+  --color-secondary: #211D1E;
 }
 
 /* Smooth scroll behavior */
@@ -54,6 +54,7 @@ h4,
 h5,
 h6 {
   font-family: var(--font-primary);
+  color:#211D1E ;
 }
 
 /*--------------------------------------------------------------
@@ -108,7 +109,7 @@ section {
 
 .breadcrumbs:before {
   content: "";
-  background-color: rgba(27, 47, 69, 0.7);
+  background-color:#F5F2DF;
   position: absolute;
   inset: 0;
 }
@@ -255,7 +256,7 @@ section {
 }
 
 .header.sticked {
-  background: rgba(27, 47, 69, 0.9);
+  background: #f5f2df;
   padding: 12px 0;
 }
 
@@ -277,6 +278,7 @@ section {
 --------------------------------------------------------------*/
 @media (min-width: 1280px) {
   .navbar {
+    
     padding: 0;
   }
 
@@ -301,7 +303,7 @@ section {
     font-family: var(--font-default);
     font-size: 15px;
     font-weight: 500;
-    color: rgba(255, 255, 255, 0.6);
+    color: black;
     white-space: nowrap;
     transition: 0.3s;
   }
@@ -317,7 +319,7 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #fff;
+    color: #EDC815;
   }
 
   .navbar .dropdown ul {
@@ -330,7 +332,7 @@ section {
     z-index: 99;
     opacity: 0;
     visibility: hidden;
-    background: #fff;
+    background: rgb(80, 23, 236);
     box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
     transition: 0.2s;
   }
@@ -503,6 +505,7 @@ section {
 # Hero Section
 --------------------------------------------------------------*/
 .hero {
+  
   width: 100%;
   min-height: 100vh;
   background: url("../img/hero-bg.jpg") top center;
@@ -517,7 +520,7 @@ section {
     position: absolute;
     content: "";
     width: 40%;
-    background: var(--color-secondary);
+    background:#F5F2DF;
     top: 0;
     bottom: 0;
   }
@@ -551,12 +554,12 @@ section {
   font-size: 48px;
   font-weight: 700;
   line-height: 1.2;
-  color: #fff;
+  color: #211D1E;
   font-family: var(--font-secondary);
 }
 
 .hero blockquote {
-  color: #fff;
+  color: #211D1E;
   padding-left: 20px;
   font-size: 15px;
   font-family: var(--font-default);
@@ -585,7 +588,7 @@ section {
   font-size: 16px;
   transition: 0.5s;
   margin-left: 25px;
-  color: rgba(255, 255, 255, 0.7);
+  color:#211D1E;
   font-weight: 600;
 }
 
@@ -771,7 +774,7 @@ section {
 # Call To Action Section
 --------------------------------------------------------------*/
 .call-to-action {
-  background: linear-gradient(rgba(27, 47, 69, 0.8), rgba(27, 47, 69, 0.8)), url("../img/cta-bg.jpg") center center;
+  background: linear-gradient(#EDC815,#), url("../img/cta-bg.jpg") center center;
   background-size: cover;
   padding: 100px 0;
 }
@@ -790,7 +793,7 @@ section {
 }
 
 .call-to-action p {
-  color: #fff;
+  color: #211D1E;
   margin-bottom: 25px;
 }
 
