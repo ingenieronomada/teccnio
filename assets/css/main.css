@@ -106,10 +106,10 @@ section {
   background-position: center;
   background-repeat: no-repeat;
 }
-
+/* portada */
 .breadcrumbs:before {
   content: "";
-  background-color:#F5F2DF;
+  background-color:#EDC815;
   position: absolute;
   inset: 0;
 }
@@ -117,7 +117,7 @@ section {
 .breadcrumbs h2 {
   font-size: 56px;
   font-weight: 500;
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-family: var(--font-secondary);
 }
 
@@ -129,11 +129,11 @@ section {
   margin: 0;
   font-size: 16px;
   font-weight: 600;
-  color: var(--color-primary);
+  color: #918c8c;
 }
 
 .breadcrumbs ol a {
-  color: rgba(255, 255, 255, 0.8);
+  color: #211D1E;
   transition: 0.3s;
 }
 
@@ -148,7 +148,7 @@ section {
 .breadcrumbs ol li+li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #fff;
+  color: #696862;
   content: "/";
 }
 
@@ -774,6 +774,7 @@ section {
 # Call To Action Section
 --------------------------------------------------------------*/
 .call-to-action {
+  
   background: linear-gradient(#EDC815,#), url("../img/cta-bg.jpg") center center;
   background-size: cover;
   padding: 100px 0;
@@ -786,7 +787,7 @@ section {
 }
 
 .call-to-action h3 {
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-size: 28px;
   margin-bottom: 25px;
   font-weight: 700;
@@ -807,7 +808,7 @@ section {
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px;
-  color: #fff;
+  color: rgb(0, 0, 0);
   background: #2aa5df;
 }
 
